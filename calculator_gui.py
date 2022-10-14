@@ -29,7 +29,7 @@ Label(master, text="My Awesome Calculator").grid(row=1, column=4)
 
 Label(master, text="First Number").grid(row=2, column=1)
 Label(master, text="Second Number").grid(row=3, column=1)
-results = Label(master, text="", textvariable=resultsVar).grid(row=3, column=3)
+results = Label(master, text="", textvariable=resultsVar).grid(row=3, column=3)#label displays a string. so textvariable need to be of type string
 
 entry1 = Entry(master)
 entry2 = Entry(master)
